@@ -1,3 +1,28 @@
 /* This file is for your main application css. */
 
 @import "./phoenix.css";
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: rgb(49, 197, 255);
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 35px 35px;
+    text-decoration: none;
+    font-size: 25px;
+    align-content: center
+  }
+
+  /* Right-aligned section inside the top navigation */
+.topnav-right {
+    float: right;
+  }
+  
+.info {background-color: #2196F3;} /* Blue */
+.info:hover {background: #0b7dda;}
